@@ -330,13 +330,13 @@ button.active, button:hover {
 
   .name {
     font-size: 2rem; 
-    margin-left: 10%; 
+    margin-left: 19%; 
     margin-top: 2%;
     width: 80%; 
   }
 
   .description {
-    font-size: 1.3rem; 
+    font-size: 1.5rem; 
     line-height: 24px;
     width: 90%; 
     margin-left: 5%;
@@ -349,22 +349,24 @@ button.active, button:hover {
     margin-top: -10%;
   }
 
+
+
   .column {
-    width: 100%; 
+    width: 50%; 
     margin-top: 5%;
 
   }
 
   .about2 {
-    font-size: 1.2rem; 
+    font-size: 1.6rem; 
     width: 90%; 
     margin-left: 0%
   }
 
   .cam {
-    width: 20%;
-    margin-left: 30%;
-    margin-top: -88%;
+    width: 30%;
+    margin-left: 37%;
+    margin-top: -20%;
   }
 
   .heading2 {
@@ -390,8 +392,8 @@ button.active, button:hover {
   }
 
   nav ul li a {
-    font-size: 12px; 
-    padding: 2px 9px; 
+    font-size: 16px; 
+    padding: 1px 10px; 
   }
 
   .containers {
@@ -401,8 +403,8 @@ button.active, button:hover {
   }
 
   .card {
-    width: 70%; 
-    margin-left: 5%; 
+    width: 80%; 
+    margin-left: 9%; 
   }
 
   .card-body p {
@@ -416,7 +418,7 @@ button.active, button:hover {
   }
 
   form {
-    width: 100%; 
+    width: 90%; 
     max-width: 100%; 
     padding: 4vw 2vw; 
   }
@@ -436,14 +438,14 @@ button.active, button:hover {
 
  
   .logo {
-    display: flex; 
-    justify-content: center; 
-    margin-top: 1rem;
+    grid-template-rows: repeat(1, 3fr);
+    margin-right: 10%;
+    margin-top: -10%;
   }
 
   .cologo {
-    height: 60px; 
-    margin-right: 10px; 
+    height: 60px;
+    margin-left: -20%;
   }
 
   
@@ -455,9 +457,9 @@ button.active, button:hover {
   }
 
   .heading3 {
-    font-size: 30px; 
-    margin-left: 9%;
-    text-align: left;
+    font-size: 28px; 
+    margin-left: 26%;
+    text-align: center;
     margin-top: 2rem;
   }
 }
