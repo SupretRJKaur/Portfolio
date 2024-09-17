@@ -308,43 +308,44 @@ button.active, button:hover {
   align-content: center;
 
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 429px) {
   body {
     background-position: center;
     background-size: cover;
   }
 
   .heading1 {
-    font-size: 6rem; 
-    margin-left: 40%;
+    font-size: 5rem; 
+    margin-left: -17%;
     margin-top: 8rem; 
     text-align:center ;
   }
 
   .heading {
-    font-size: 2rem; 
-    margin-left: 5%;
+    font-size: 1.7rem; 
+    margin-right: 30%;
     margin-top: 5%;
     text-align: center;
   }
 
   .name {
     font-size: 2rem; 
-    margin-left: 70%; 
+    margin-left: 10%; 
     margin-top: 2%;
     width: 80%; 
   }
 
   .description {
-    font-size: 1.7rem; 
+    font-size: 1.3rem; 
     line-height: 24px;
     width: 90%; 
     margin-left: 5%;
   }
 
   .right {
-    grid-template-rows: repeat(2, 3fr);
-    margin-right: -10%;
+    grid-template-rows: repeat(1, 1fr);
+    margin-left: 0%;
+    justify-items: center;
     margin-top: -10%;
   }
 
@@ -355,15 +356,15 @@ button.active, button:hover {
   }
 
   .about2 {
-    font-size: 1.7rem; 
-    width: 100%; 
-    margin-left: 60%;
+    font-size: 1.2rem; 
+    width: 90%; 
+    margin-left: 0%
   }
 
   .cam {
-    width: 40%;
-    margin-left: 5%;
-    margin-top: -85%;
+    width: 20%;
+    margin-left: 30%;
+    margin-top: -88%;
   }
 
   .heading2 {
@@ -373,11 +374,11 @@ button.active, button:hover {
 
   
   nav {
-    height: 70px; 
+    height: 40px; 
     display:flex;
     justify-content: space-between; 
-    padding: 0 50px; 
-    margin-left: 5%;
+    padding: 0 5px; 
+    margin-left: 0%;
   }
 
   nav ul {
@@ -385,12 +386,12 @@ button.active, button:hover {
   }
 
   nav ul li {
-    line-height: 80px; 
+    line-height: 40px; 
   }
 
   nav ul li a {
-    font-size: 28px; 
-    padding: 5px 10px; 
+    font-size: 12px; 
+    padding: 2px 9px; 
   }
 
   .containers {
@@ -400,8 +401,8 @@ button.active, button:hover {
   }
 
   .card {
-    width: 90%; 
-    margin: 10px auto; 
+    width: 70%; 
+    margin-left: 5%; 
   }
 
   .card-body p {
@@ -454,8 +455,8 @@ button.active, button:hover {
   }
 
   .heading3 {
-    font-size: 5px; 
-    margin-right:90px;
+    font-size: 30px; 
+    margin-left: 9%;
     text-align: left;
     margin-top: 2rem;
   }
