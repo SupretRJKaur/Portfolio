@@ -315,8 +315,8 @@ button.active, button:hover {
   }
 
   .heading1 {
-    font-size: 5rem; 
-    margin-left: -17%;
+    font-size: 4.5rem; 
+    margin-left: -13%;
     margin-top: 8rem; 
     text-align:center ;
   }
@@ -392,7 +392,7 @@ button.active, button:hover {
   }
 
   nav ul li a {
-    font-size: 16px; 
+    font-size: 13px; 
     padding: 1px 10px; 
   }
 
