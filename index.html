@@ -4,22 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
     <title>Supret RJ Kaur</title>
 
   </head>
   <body>
      <!---------------------------------------- Navbar  --------------------------------------------------->
-   <nav>
-    <ul>
-      <li><a href="#HeroPage">Home</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
-  </nav>
+     <nav>
+      <ul>
+        <li><a href="#HeroPage" onclick="scrollToSection('HeroPage')">Home</a></li>
+        <li><a href="#skills" onclick="scrollToSection('skills')">Skills</a></li>
+        <li><a href="#projects" onclick="scrollToSection('projects')">Projects</a></li>
+        <li><a href="#contact" onclick="scrollToSection('contact')">Contact Me</a></li>
+      </ul>
+    </nav>
     <!---------------------------------------- hero page --------------------------------------------------->
   <div id="HeroPage">
-    <div class="aboutUs">
+    <div class="aboutUs" >
       <h1 class="heading1">Portfolio</h1>
       <p class="name">
        Supret RJ Kaur
@@ -55,7 +56,7 @@
       are functuninal, user-friendly <br>
       and visually appealing. <br>
     </p>
-    <div class="right">
+    <div class="right hidden show">
       <div class="column"><img src="assets/c-original.svg" alt="C"></div>
       <div class="column"><img src="assets/html5-original-wordmark.svg" alt="HTML"></div>
       <div class="column"><img src="assets/css3-original-wordmark.svg" alt="CSS"></div>
@@ -73,7 +74,7 @@
         of a camera<br>
       </p>
     </div>
-    <img src="assets/camera.svg" class="cam">
+    <img src="assets/camera.svg" class="cam hidden show">
   </div>
 
   
@@ -88,7 +89,7 @@
    <!---------------------------------------- projects --------------------------------------------------->
   
   <div id="projects">
-    <h1 class="heading3">Web Development</h1>
+    <h1 class="heading3 ">Web Development</h1>
     <div class="containers">
       <div class="card">
         <div class="card-header">

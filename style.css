@@ -308,6 +308,8 @@ button.active, button:hover {
   align-content: center;
 
 }
+
+
 @media screen and (max-width: 429px) {
   body {
     background-position: center;
