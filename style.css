@@ -149,6 +149,8 @@ nav {
   margin-top: 5.5%;
   margin-bottom: 8px;
   margin-right: 35%;
+  text-align: center; 
+  margin-left: 34rem;
 }
 
 .containers {
@@ -305,4 +307,156 @@ button.active, button:hover {
   margin-top: 0%;
   align-content: center;
 
+}
+@media screen and (max-width: 428px) {
+  body {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .heading1 {
+    font-size: 6rem; 
+    margin-left: 40%;
+    margin-top: 8rem; 
+    text-align:center ;
+  }
+
+  .heading {
+    font-size: 2rem; 
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .name {
+    font-size: 2rem; 
+    margin-left: 70%; 
+    margin-top: 2%;
+    width: 80%; 
+  }
+
+  .description {
+    font-size: 1.7rem; 
+    line-height: 24px;
+    width: 90%; 
+    margin-left: 5%;
+  }
+
+  .right {
+    grid-template-rows: repeat(2, 3fr);
+    margin-right: -10%;
+    margin-top: -10%;
+  }
+
+  .column {
+    width: 100%; 
+    margin-top: 5%;
+
+  }
+
+  .about2 {
+    font-size: 1.7rem; 
+    width: 100%; 
+    margin-left: 60%;
+  }
+
+  .cam {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: -85%;
+  }
+
+  .heading2 {
+    font-size: 2rem; 
+    margin-left: 30%;
+  }
+
+  
+  nav {
+    height: 70px; 
+    display:flex;
+    justify-content: space-between; 
+    padding: 0 50px; 
+    margin-left: 5%;
+  }
+
+  nav ul {
+    margin-right: 0;
+  }
+
+  nav ul li {
+    line-height: 80px; 
+  }
+
+  nav ul li a {
+    font-size: 28px; 
+    padding: 5px 10px; 
+  }
+
+  .containers {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; 
+    justify-content: center; 
+  }
+
+  .card {
+    width: 90%; 
+    margin: 10px auto; 
+  }
+
+  .card-body p {
+    font-size: 1.1rem; 
+    margin-top: 1rem; 
+  }
+
+  .description1 {
+    font-size: 0.8rem; 
+    width: 100%; 
+  }
+
+  form {
+    width: 100%; 
+    max-width: 100%; 
+    padding: 4vw 2vw; 
+  }
+
+  form h2 {
+    font-size: 24px;
+  }
+
+  form input, form textarea {
+    font-size: 14px; 
+  }
+
+  form button {
+    font-size: 16px; 
+    width: 120px;
+  }
+
+ 
+  .logo {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 1rem;
+  }
+
+  .cologo {
+    height: 60px; 
+    margin-right: 10px; 
+  }
+
+  
+  .card-body img {
+    width: 100%; 
+    height: auto;
+    margin-top: 1rem; 
+    max-width: 100%; 
+  }
+
+  .heading3 {
+    font-size: 5px; 
+    margin-right:90px;
+    text-align: left;
+    margin-top: 2rem;
+  }
 }
